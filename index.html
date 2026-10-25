@@ -182,6 +182,15 @@
 
             <hr>
 
+            <!-- Blog (posts listed in blog/posts.js; section hides itself when empty) -->
+            <section id="blog">
+                <h2>&gt; blog</h2>
+                <div id="blog-list" data-base="blog/" data-limit="3" data-hide-empty></div>
+                <p><a href="blog/" class="link">all write-ups &rarr;</a></p>
+            </section>
+
+            <hr>
+
             <!-- Cert Roadmap -->
             <section id="roadmap">
                 <h2>&gt; certification roadmap</h2>
@@ -258,6 +267,8 @@
             <p>Jaspreet Singh &mdash; Winnipeg, MB &mdash; jaspreetsec.com</p>
         </footer>
     </div>
+    <script src="blog/posts.js"></script>
+    <script src="blog/blog.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

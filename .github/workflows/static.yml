@@ -36,7 +36,8 @@ jobs:
       - name: Prepare deployment assets
         run: |
           mkdir -p dist
-          cp index.html styles.css script.js favicon.jpg CNAME dist/ 2>/dev/null || true
+          cp index.html styles.css script.js favicon.ico CNAME dist/ 2>/dev/null || true
+          rsync -a --exclude '_template.html' --exclude 'PROMPT.md' blog/ dist/blog/
           # If CNAME doesn't exist, skip
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
