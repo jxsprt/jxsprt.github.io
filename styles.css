@@ -99,7 +99,7 @@ li { padding: 0.25rem 0; color: var(--text-dim); font-size: 0.92rem; line-height
 }
 .edu-status.active     { background: #0a2a0a; color: var(--terminal-green); border: 1px solid var(--dim-green); }
 .edu-status.in-progress { background: #1a1a0a; color: #d29922; border: 1px solid #d29922; }
-.edu-status.completed  { background: #0a0a1a; color: #58a6ff; border: 1px solid #58a6ff; }
+.edu-status.completed  { background: #0a2a0a; color: var(--terminal-green); border: 1px solid var(--dim-green); }
 
 /* ===== Skills ===== */
 .skill-category { margin-bottom: 1.25rem; }
