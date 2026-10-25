@@ -52,9 +52,9 @@ This project uses **GitHub Actions** for automatic deployment:
 4. **Technical Projects**: 
    - **Multi-Node VPS**: Management of Cortex, Sanctum, and Goliath nodes.
    - **Fakir**: Voice-controlled agent built with Deepgram and Groq.
-   - **Offensive Labs**: TryHackMe (0xjaspreet) and local CTF practice.
+   - **Offensive Labs**: TryHackMe ([jxsprt](https://tryhackme.com/p/jxsprt)) and local CTF practice.
 5. **Roadmap**: Professional certification path (Security+, eJPT, PNPT, OSCP).
-6. **Connect**: Centralized links for GitHub, LinkedIn, X, and TryHackMe.
+6. **Connect**: Centralized links for GitHub, LinkedIn, TryHackMe, and email.
 
 ## ✍️ Blog
 
@@ -66,4 +66,4 @@ This is a static site with no backend, minimizing the attack surface. For vulner
 
 ---
 
-**Built with a systems-thinking mindset by Jaspreet Singh (0xjaspreet).**
+**Built with a systems-thinking mindset by Jaspreet Singh (jxsprt).**
