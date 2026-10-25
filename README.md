@@ -56,6 +56,10 @@ This project uses **GitHub Actions** for automatic deployment:
 5. **Roadmap**: Professional certification path (Security+, eJPT, PNPT, OSCP).
 6. **Connect**: Centralized links for GitHub, LinkedIn, X, and TryHackMe.
 
+## ✍️ Blog
+
+Lab write-ups live in `blog/`. To publish one, save `blog/<slug>.html` (from `blog/_template.html`), put images in `blog/images/<slug>/`, and add an entry to `blog/posts.js`. `blog/PROMPT.md` has a copy-paste AI prompt that fills in the template from raw notes.
+
 ## 🔒 Security
 
 This is a static site with no backend, minimizing the attack surface. For vulnerability reporting or security-related inquiries, please contact `hello@jaspreetsec.com`.

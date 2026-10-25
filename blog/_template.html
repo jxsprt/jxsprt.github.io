@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+  BLOG POST TEMPLATE. See blog/PROMPT.md for the copy-paste AI prompt.
+  1. Replace every {{PLACEHOLDER}}.
+  2. Fill the <article> using only the elements shown below (h2, h3, p, ul/ol, pre>code, figure, blockquote, a).
+  3. Images live in blog/images/{{SLUG}}/ and are referenced as images/{{SLUG}}/<file>.
+  4. Save as blog/{{SLUG}}.html and add an entry to blog/posts.js.
+  Delete this comment and the example blocks you don't use.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{SUMMARY}}">
+    <meta property="og:title" content="{{TITLE}}">
+    <meta property="og:description" content="{{SUMMARY}}">
+    <meta property="og:url" content="https://jaspreetsec.com/blog/{{SLUG}}.html">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://jaspreetsec.com/blog/images/{{SLUG}}/{{COVER_IMAGE}}">
+    <link rel="canonical" href="https://jaspreetsec.com/blog/{{SLUG}}.html">
+    <title>{{TITLE}} — Jaspreet Singh</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>> blog</h1>
+            <p class="subtitle">Lab write-ups &mdash; Jaspreet Singh</p>
+            <p class="location"><a href="./" class="link">&larr; all write-ups</a></p>
+        </header>
+
+        <main>
+            <article class="post">
+                <h2 class="post-title">{{TITLE}}</h2>
+                <p class="post-meta">{{DATE_READABLE}} &middot; {{READ_TIME}} min read</p>
+                <div class="project-tags">
+                    <span class="tag">{{TAG_1}}</span>
+                    <span class="tag">{{TAG_2}}</span>
+                </div>
+
+                <h3>Goal</h3>
+                <p>What I set out to build or learn, and why it matters.</p>
+
+                <h3>Setup</h3>
+                <ul>
+                    <li>Tools, versions, and lab environment</li>
+                </ul>
+
+                <h3>Steps</h3>
+                <p>Explain each step, then show the command or config.</p>
+<pre><code>sudo ufw default deny incoming
+sudo ufw allow 22/tcp</code></pre>
+
+                <figure>
+                    <img src="images/{{SLUG}}/{{IMAGE_FILE}}" alt="{{IMAGE_ALT}}" loading="lazy">
+                    <figcaption>{{IMAGE_CAPTION}}</figcaption>
+                </figure>
+
+                <h3>Findings</h3>
+                <p>What happened, what I observed, what broke and how I fixed it.</p>
+
+                <blockquote>Key takeaway or security lesson in one or two sentences.</blockquote>
+
+                <h3>Next steps</h3>
+                <p>What I would improve or try next.</p>
+            </article>
+
+            <p><a href="./" class="link">&larr; all write-ups</a> &nbsp; <a href="../" class="link">jaspreetsec.com</a></p>
+        </main>
+
+        <footer>
+            <p>Jaspreet Singh &mdash; Winnipeg, MB &mdash; jaspreetsec.com</p>
+        </footer>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>

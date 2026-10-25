@@ -244,3 +244,45 @@ hr {
   .edu-header { flex-direction: column; gap: 0.25rem; }
   .connect-grid { grid-template-columns: 1fr; }
 }
+
+/* ===== Blog ===== */
+.post-link { color: var(--terminal-green); text-decoration: none; }
+.post-link:hover { text-decoration: underline; }
+.post-meta { font-size: 0.78rem; color: var(--text-muted); margin-bottom: 0.75rem; }
+
+.post .post-title { text-transform: none; letter-spacing: 0; font-size: 1.5rem; }
+.post .project-tags { margin: 0 0 2rem; }
+.post h3 { margin-top: 2rem; }
+.post p, .post li { font-size: 0.95rem; }
+
+.post pre {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-left: 2px solid var(--dim-green);
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 0 0 1.25rem;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+.post code { color: var(--terminal-green); font-family: inherit; }
+.post p code, .post li code { background: var(--card-bg); padding: 0.1rem 0.3rem; border-radius: 2px; font-size: 0.88em; }
+
+.post figure { margin: 0 0 1.5rem; }
+.post img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--dark-green);
+  border-radius: 4px;
+}
+.post figcaption { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.5rem; text-align: center; }
+
+.post blockquote {
+  border-left: 2px solid var(--terminal-green);
+  padding: 0.5rem 1rem;
+  margin: 0 0 1.25rem;
+  color: var(--text-main);
+  background: rgba(0, 255, 65, 0.03);
+}
